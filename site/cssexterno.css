@@ -1,0 +1,17 @@
+
+.corsite
+{
+	background-color: #fde910;
+	/*color: #d3d3d3;*/
+	font-weight: bold;
+}
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
