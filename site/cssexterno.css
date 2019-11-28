@@ -2,8 +2,13 @@
 .corsite
 {
 	background-color: #fde910;
-	/*color: #d3d3d3;*/
 	font-weight: bold;
+
+}
+
+.texto
+{
+  color: #666666;
 }
 
   body {
