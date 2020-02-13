@@ -40,52 +40,118 @@
   </ul>
           
     <!-- fim navbar -->
-<br>
-<div class="container">
-<h4>Login</h4>
-    <div class="row">
-    <form class="col s12">
+
+<!-- login -->
+<div class="row">
+    <form class="col s12" solid>
+      <h4>Faça seu Login</h4>
       <div class="row">
-        <div class="input-field col s6">
-          <input placeholder="Email" id="first_name" type="text" class="validate">
-          <label for="first_name"></label>
-          <input placeholder="Senha" id="first_name" type="password" class="validate">
-          <label for="first_name"></label>
-          <a class="waves-effect waves-light btn" style="background-color: grey; margin-bottom:2px">entrar</a><br>
-          <a href="esqueceusenha.html">Esqueceu a senha?</a>
+        <div class="input-field col s4">
+          <i class="material-icons prefix">mail</i>
+          <input id="email" type="email" class="validate">
+          <label for="email">E-mail</label>
         </div>
-        <div class="input-field col s6">
-           <input disabled value="Não tem uma conta?" id="disabled" type="text" class="validate">
-          <label for="disabled"></label>
-          <input placeholder="Nome" id="first_name" type="text" class="validate">
-          <label for="first_name"></label>
-          <input placeholder="Email" id="first_name" type="text" class="validate">
-          <label for="first_name"></label>
-          <p>
-      <label>
-        <input name="group1" type="radio" checked />
-        <span>F</span>
-      </label>
-      <label>
-        <input name="group1" type="radio" checked />
-        <span>M</span>
-      </label>
-      <label>
-        <input name="group1" type="radio" checked />
-        <span>Outro</span>
-      </label>
-    </p>
-          <label for="disabled"></label>
-          <input placeholder="Senha" id="first_name" type="password" class="validate">
-          <label for="first_name"></label>
-          <input placeholder="Confirmar Senha" id="first_name" type="password" class="validate">
-          <label for="first_name"></label>
-  <a class="waves-effect waves-light btn" style="background-color: grey; margin-bottom:2px">cadastrar</a>
+        <div class="input-field col s4">
+          <i class="material-icons prefix">lock</i>
+          <input id="password" type="password" class="validate">
+          <label for="password">Senha</label>
+        </div>
+      
+       <div class="col s4">
+       <button class="btn waves-effect waves-light corsite texto" type="submit" name="action" style="background-color: #fde910;color: #666666">Entrar</button>
+      </div>
+      <div class="col s2">
+       <a href="esqueciasenha.html" target="`_blank">Esqueci a senha</a>
+      </div>
+    </div>
+    </form>
+<!-- fim login -->
+
+
+ <!-- cadastro -->
+    <form class="col s12">
+      <h4>Não tem uma conta ainda?</h4>
+      <div class="row">
+        <div class="input-field col s4">
+          <input id="first_name" type="text" class="validate" maxlength="20">
+          <label for="first_name">Nome</label>
+        </div>
+        <div class="input-field col s4">
+          <input id="last_name" type="text" class="validate" maxlength="50">
+          <label for="last_name">Sobrenome</label>
         </div>
       </div>
+      <div class="row">
+        <div class="col s2">
+          <label>
+        <input class="with-gap" name="group1" type="radio"  />
+        <span>F</span>
+      </label>
+        </div>
+
+        <div class="col s2">
+          <label>
+        <input class="with-gap" name="group2" type="radio"  />
+        <span>M</span>
+      </label>
+        </div>
+
+        <div class="col s2">
+          <label>
+        <input class="with-gap" name="group3" type="radio"  />
+        <span>Outro</span>
+      </label>
+        </div>
+      </div>
+          
+      <div class="row">
+        <div class="input-field col s4">
+          <p>Data de Nascimento</p>
+          <input type="text" class="datepicker">
+       </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s8">
+          <input id="email2" type="email" class="validate">
+          <label for="email2">E-mail</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s4">
+          <input id="password2" type="password" class="validate" minlength="8">
+          <label for="password2">Senha</label>
+        </div>
+      
+        <div class="input-field col s4">
+          <input id="password3" type="password" class="validate" minlength="8">
+          <label for="password3">Confirme a senha</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s8">
+      <div class="file-field input-field">
+      <div class="btn" style="background-color: #fde910">
+        <span class="texto" style="font-weight: bold">Foto de Perfil</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+    </div>
+      </div>
+<div class="row">
+        <div class="input-field col s8">
+ <button class="btn waves-effect waves-light corsite right" type="submit" name="action" style="background-color: #fde910;color: #666666;">Cadastrar
+  </button>
+</div></div>
+    </form>
+    <!-- fim cadastro -->
   </div>
-  </div>
-</div>
+
 
 
   
